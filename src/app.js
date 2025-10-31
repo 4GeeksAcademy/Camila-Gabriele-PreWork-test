@@ -155,7 +155,7 @@ D) Error
   console.log(inventarioSinTrampa);
 
   let inventarioEnMayuscula= inventarioSinTrampa.map (item => item.toUpperCase());
-  console.log("Inventario en mayuscula", inventarioEnMayuscula);
+  console.log(inventarioEnMayuscula);
   
   let [primerItem,segundoItem]= inventarioEnMayuscula;
   console.log(primerItem);
